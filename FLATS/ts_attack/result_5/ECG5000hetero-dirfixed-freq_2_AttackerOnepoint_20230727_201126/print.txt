@@ -1,0 +1,7 @@
+Running Attack of the tails with args:
+ Namespace(adversarial_local_training_period=1, attack_case='edge-case', attack_method='blackbox', attacker_pool_size=2, attackmathed='AttackerOnepoint', batch_size=8, cuda=True, dataset='ECG5000', defense_method='no-defense', device='cuda', epochs=14, eps=1.0, fl_mode='fixed-freq', fl_round=3, gamma=0.997, local_train_period=1, lr=0.0001, model='fcn', model_replacement=False, no_cuda=False, norm_bound=1.5, num_nets=100, part_nets_per_round=20, poison_type='ardis', project_frequency=10, prox_attack=False, rand_seed=7, seed=1, stddev=0.025, target_class=-1, test_batch_size=1000)
+cpu
+========================> Building model........................
+Seeded everything %d 7
+---------------load UCR daset-------------------
+load UCR data (500, 140) (4500, 140)
